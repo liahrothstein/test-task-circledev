@@ -1,0 +1,14 @@
+section.photos div.mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section.photos .container img {
+    width: 300px;
+    height: 300px;
+}
+
+section.photos .container {
+    width: 300px;
+}

@@ -1,0 +1,19 @@
+section.todos .mainContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+section.todos .container {
+    display: flex;
+    margin: 15px 0;
+}
+
+section.todos .container input {
+    margin-right: 10px;
+}
+
+section.todos .container div.title.completed {
+    text-decoration: line-through;
+}
